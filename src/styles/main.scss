@@ -1,10 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
-
-.jumbotron {
-  background-color: lightgray;
-  padding: 50px;
-}
+@import "./variables";
+@import "./jumbotron";
 
 label {
   margin-top: .5rem;
